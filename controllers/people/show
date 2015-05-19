@@ -1,0 +1,2 @@
+view = gsp.createTemplate(new File("${System.getProperty('user.dir')}/views/people/show.gsp"))
+println view.make([greeting:'Hello'])
